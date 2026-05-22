@@ -1,0 +1,13 @@
+{
+  "name": "intern-alley",
+  "private": true,
+  "version": "1.0.0",
+  "packageManager": "pnpm@11.1.0",
+  "workspaces": [
+    "apps/*",
+    "packages/*"
+  ],
+  "scripts": {
+    "dev": "pnpm --parallel --filter ./apps/* dev"
+  }
+}
